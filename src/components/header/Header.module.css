@@ -1,0 +1,11 @@
+.header {
+    background-color: #242C54;
+    padding: 20px;
+}
+
+.header_wrapper {
+    max-width: 1489px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}

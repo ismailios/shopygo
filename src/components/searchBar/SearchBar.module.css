@@ -1,0 +1,33 @@
+.SearchBar {
+    width: 50%;
+}
+
+.search_wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    background: #5b6284;
+    border-radius: 5px;
+}
+
+.search_input {
+
+    width: 100%;
+    padding: 10px 20px 10px 30px;
+    border: none;
+    outline: none;
+    background: #5b6284;
+    color: white;
+    border-radius: 5px;
+}
+
+.search_input:focus {
+    background: #5b6284;
+}
+
+.search_icon {
+    position: absolute;
+    left: 10px;
+    color: white;
+}

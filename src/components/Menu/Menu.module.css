@@ -1,0 +1,15 @@
+.menu_select {
+    min-width: 95.23px;
+    background: none;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    border: none;
+    border-left: 2px solid #8388A1;
+    margin-left: 30px;
+    margin-right: 10px;
+    padding: 0 20px;
+    outline: none;
+
+}

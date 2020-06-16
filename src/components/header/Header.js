@@ -1,13 +1,23 @@
 import React from "react";
-import Menu from "../Menu/Menu";
+import Menu from "../menu/Menu";
 import Logo from "../logo/Logo";
-import classes from "../header/Header.css";
+import SearchBar from "../searchBar/SearchBar";
+import Parrainage from "../parrainage/Parrainage";
+import Compte from "../compte/Compte";
+import Panier from "../panier/Panier";
+import classes from "../header/Header.module.css";
 
 const Header = () => {
   return (
-    <div className={classes.Header}>
-      <Logo />
-      <Menu />
+    <div className={classes.header}>
+      <div className={classes.header_wrapper}>
+        <Logo />
+        <Menu />
+        <SearchBar />
+        <Parrainage />
+        <Compte />
+        <Panier />
+      </div>
     </div>
   );
 };

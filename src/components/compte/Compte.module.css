@@ -1,0 +1,16 @@
+.Compte {
+    font-weight: 500;
+    font-size: 16px;
+    text-align: left;
+    color: #fff;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.compte_icon {
+    padding-right: 10px;
+    width: 18.75px;
+    height: 20.64px;
+    color: #ffa161;
+}
